@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Google scholar context menu button",
+    "version": "1.0.0",
+    "description": "Add google scholar to the context menu.",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "permissions": [
+        "contextMenus"
+    ],
+    "background":{
+        "scripts":[
+            "script.js"
+        ],
+        "persistent": false
+    }
+}
